@@ -1,7 +1,3 @@
-#### 软件架构
-软件架构说明
-
-
 #### 安装教程
 
 
@@ -15,5 +11,6 @@ pip install -r requirements.txt
 #### 使用说明
 
 1.  test文件是我测试代码的文件，不用管
-2.  triple_extraction里面是分词和事件提取还有数据处理
-3.  reptil是简单的爬虫代码
+2.  .gitattributes是避免上传代码Linux核windows换行符的问题，不用管
+3.  triple_extraction里面是分词和事件提取还有数据处理
+4.  reptil是简单的爬虫代码
