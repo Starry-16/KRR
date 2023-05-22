@@ -15,4 +15,14 @@ pip install -r requirements.txt
 3.  triple_extraction里面是分词和事件提取还有数据处理
 4.  reptil是简单的爬虫代码
 5.  语义标注模型应该用windows版本的（pisrl_win.model），但是经过摸索我发现提取的差别为0，可能是本项目数据集过于简单的原因。运行本项目可以选择使用第一个快的，加载一个空模型（文件夹内不能有pisrl.model文件）
+
 ![1](https://github.com/Starry-16/KRR/assets/89348402/1cb03a6d-897c-4c6f-9f4b-6e302a76ed37)
+
+6.  11
+7.  
+
+
+
+
+
+
