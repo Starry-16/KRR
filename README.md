@@ -18,8 +18,6 @@ pip install -r requirements.txt
 
 ![1](https://github.com/Starry-16/KRR/assets/89348402/1cb03a6d-897c-4c6f-9f4b-6e302a76ed37)
 
-6.  11
-7.  
 
 
 
