@@ -22,14 +22,4 @@ def data_process(extractor):
                 f.write('\n')
 
 
-# with open('./data/json/primary_data2.json', mode='r', encoding='utf-8') as f:
-#     content = f.readlines()
-#     json_data_list = []
-#     buffer = ""
-#     for line in content:
-#         print(line)
-#         json_data_list.append(line)
-#         buffer = ""
-#         print(json_data_list)
-
     
