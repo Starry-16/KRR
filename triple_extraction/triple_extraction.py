@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+# coding: utf-8
+# File: triple_extraction.py
+# Author: lhy<lhy_in_blcu@126.com,https://huangyong.github.io>
+# Date: 18-3-12
 from sentence_parser import *
 from data_processign import *
 import re
@@ -107,6 +112,17 @@ class TripleExtractor:
         return svos
 
 if __name__ == '__main__':
+    # extractor = TripleExtractor()
+    # with open('./data/csv/total.csv', encoding='utf-8') as csv_file:
+    #     csv_reader = csv.reader(csv_file)
+    #     list1=[]
+    #     for row in csv_reader:
+    #         svos = extractor.triples_main(row[0])
+    #         list1.append(svos)
+    #     with open('./data/json/primary_data2.json', 'w',encoding='utf-8') as f:
+    #         for data in list1:
+    #             json.dump(data, f, ensure_ascii=False)
+    #             f.write('\n')
 
     extractor = TripleExtractor()
     data_process(extractor) #引用data_processign.py中的函数

@@ -15,11 +15,21 @@ def data_process(extractor):
                 for item in svos:
                     list1.append(item)
 
-        with open('./data/json/primary_data3.json', 'w',encoding='utf-8') as f:
+        with open('./data/json/primary_data.json', 'w',encoding='utf-8') as f:
             for data in list1:
                 dict1={"triple": data}
                 json.dump(dict1, f, ensure_ascii=False)
                 f.write('\n')
 
+
+# with open('./data/json/primary_data2.json', mode='r', encoding='utf-8') as f:
+#     content = f.readlines()
+#     json_data_list = []
+#     buffer = ""
+#     for line in content:
+#         print(line)
+#         json_data_list.append(line)
+#         buffer = ""
+#         print(json_data_list)
 
     

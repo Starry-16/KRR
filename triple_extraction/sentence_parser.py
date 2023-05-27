@@ -1,10 +1,16 @@
+#!/usr/bin/env python3
+# coding: utf-8
+# File: sentence_parser.py
+# Author: lhy<lhy_in_blcu@126.com,https://huangyong.github.io>
+# Date: 18-3-10
+
 import os
 from pyltp import Segmentor, Postagger, Parser, NamedEntityRecognizer, SementicRoleLabeller
 
 
 class LtpParser:
     def __init__(self):
-        LTP_DIR = "./model/ltp_data_v3.4.0"
+        LTP_DIR = "D:/desktop/KRR/myself/model/ltp_data_v3.4.0"
         self.segmentor = Segmentor(os.path.join(LTP_DIR, "cws.model"))
 
         self.postagger = Postagger(os.path.join(LTP_DIR, "pos.model"))
@@ -13,8 +19,7 @@ class LtpParser:
 
         self.recognizer = NamedEntityRecognizer(os.path.join(LTP_DIR, "ner.model"))
 
-        self.labeller = SementicRoleLabeller(os.path.join(LTP_DIR, 'pisrl.model'))  #快
-        # self.labeller = SementicRoleLabeller(os.path.join(LTP_DIR, 'pisrl_win.model'))  #慢
+        self.labeller = SementicRoleLabeller(os.path.join(LTP_DIR, 'pisrl.model'))
 
     '''语义角色标注'''
     def format_labelrole(self, words, postags):
@@ -30,6 +35,9 @@ class LtpParser:
         child_dict_list = []
         format_parse_list = []
 
+        # print("arcs: ", arcs)
+        # print("arcs0: ", arcs[0])
+        # print("arcs0.head: ", arcs[0][1])
         for index in range(len(words)):
             child_dict = dict()
             for arc_index in range(len(arcs)):
