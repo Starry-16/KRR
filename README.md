@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 5.  ./OpenKE-OpenKE-PyTorch/transe_title2event.py和transh_title2event.py是transE和transH的训练
 6.  ./OpenKE-OpenKE-PyTorch/query_transe.py和query_transh.py是问答
-7.  ./OpenKE-OpenKE-PyTorch/checkpoint/transe.ckpt和transh.ckpt是已经训练好的参数文件，如有需要请在百度网盘自行下载[链接]:(https://pan.baidu.com/s/1GmYVHG7warRzFlk7528JAA)提取码：0lgq            或者可以参照第5步自行训练
+7.  ./OpenKE-OpenKE-PyTorch/checkpoint/transe.ckpt和transh.ckpt是已经训练好的参数文件，如有需要请在百度网盘自行下载[链接](https://pan.baidu.com/s/1GmYVHG7warRzFlk7528JAA)提取码：0lgq            或者可以参照第5步自行训练
 
 
 
