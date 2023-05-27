@@ -1,6 +1,6 @@
 #### 安装教程
 
-1.  安装python包：requirements.txt
+1.  安装python包：requirements.txt（建议python3.9及以下）
 ~~~
 pip install -r requirements.txt
 ~~~
